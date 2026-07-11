@@ -495,7 +495,7 @@ function AlbumGrid({ albums, onPlay, onAction }: { albums: any[], onPlay: any, o
                 <div className="px-2 pb-4">
                   <Accordion type="single" collapsible className="w-full">
                     <AccordionItem value="tracks" className="border-none">
-                      <AccordionTrigger className="hover:no-underline py-2.5 px-4 rounded-xl hover:bg-primary/5 transition-all text-[9px] font-bold tracking-[0.2em] uppercase opacity-70 hover:opacity-100 flex gap-2 flex-row-reverse group/trigger">
+                      <AccordionTrigger className="hover:no-underline py-2.5 px-4 rounded-xl hover:bg-primary/5 transition-all text-[9px] uppercase opacity-70 hover:opacity-100 flex gap-2 flex-row-reverse group/trigger">
                         <div className="flex items-center gap-2 flex-row-reverse">
                           <span className="group-data-[state=open]/text-primary uppercase text-xs">تصفح القصائد</span>
                           <span className="w-5 h-5 rounded-lg bg-primary/20 text-primary flex items-center justify-center text-[9px] border border-primary/10">{album.tracks ? album.tracks.length : 0}</span>
